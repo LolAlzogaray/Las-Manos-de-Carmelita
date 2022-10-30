@@ -131,13 +131,20 @@ header{
     justify-content: center;
     margin: auto;
     padding: auto
+     }
+    .imagen-footer {
+        display: flex;
+        display: block;
+        width: auto;
+        height: auto;
+    }
 
                         }
                     }
                 }   
             }
         }
-    }
+    
 
     /* media queries tablet*/
 
@@ -159,6 +166,14 @@ header{
            justify-content: center;
            margin: auto;
            padding: auto
+            }
+           
+            .imagen-footer {
+            display: flex;
+            display: block;
+            width: auto;
+            height: auto;
+        }
        
        
                                }
@@ -166,5 +181,5 @@ header{
                          }
                      }
                  }
-             }
+             
 

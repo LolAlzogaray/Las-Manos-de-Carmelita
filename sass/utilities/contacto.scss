@@ -87,6 +87,12 @@ main {
     }
 }
 }
+.imagen-footer {
+    display: flex;
+    display: block;
+    width: auto;
+    height: auto;
+}
 /* media queries tablet*/
 
 @media screen and (max-width: 990px){ 
@@ -110,6 +116,12 @@ main {
                     margin: auto;
                 }
             }
+        }
+        .imagen-footer {
+            display: flex;
+            display: block;
+            width: auto;
+            height: auto;
         }
 /*estilos de footer*/ 
 

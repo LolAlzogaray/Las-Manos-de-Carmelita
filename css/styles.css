@@ -102,7 +102,12 @@ footer {
         header nav ul .navbar .buscador footer {
           justify-content: center;
           margin: auto;
-          padding: auto; } }
+          padding: auto; }
+        header nav ul .navbar .buscador .imagen-footer {
+          display: flex;
+          display: block;
+          width: auto;
+          height: auto; } }
 
 /* media queries tablet*/
 @media screen and (max-width: 990px) {
@@ -118,7 +123,12 @@ footer {
         header nav ul .navbar .buscador footer {
           justify-content: center;
           margin: auto;
-          padding: auto; } }
+          padding: auto; }
+        header nav ul .navbar .buscador .imagen-footer {
+          display: flex;
+          display: block;
+          width: auto;
+          height: auto; } }
 
 /* estilo del body */
 body {
@@ -207,6 +217,12 @@ main div li {
   .gif {
     display: none; } }
 
+.imagen-footer {
+  display: flex;
+  display: block;
+  width: auto;
+  height: auto; }
+
 /* media queries tablet*/
 @media screen and (max-width: 990px) {
   header nav ul {
@@ -229,6 +245,12 @@ main div li {
     text-align: center; }
   .gif {
     display: none; } }
+
+.imagen-footer {
+  display: flex;
+  display: block;
+  width: auto;
+  height: auto; }
 
 /*estilos de footer*/
 footer .historia__final {
@@ -374,6 +396,12 @@ footer {
             flex-direction: column;
             align-items: right; } }
 
+.imagen-footer {
+  display: flex;
+  display: block;
+  width: auto;
+  height: auto; }
+
 @media screen and (max-width: 990px) {
   header nav ul {
     transform: scale(0.9);
@@ -408,6 +436,12 @@ footer {
             display: flex;
             flex-direction: column;
             align-items: right; } }
+
+.imagen-footer {
+  display: flex;
+  display: block;
+  width: auto;
+  height: auto; }
 
 /* estilo del body */
 body {
@@ -495,6 +529,12 @@ section {
   .gif {
     display: none; } }
 
+.imagen-footer {
+  display: flex;
+  display: block;
+  width: auto;
+  height: auto; }
+
 /* media queries tablet*/
 @media screen and (max-width: 990px) {
   header nav ul {
@@ -508,6 +548,12 @@ section {
     margin-left: 20px; }
   .gif {
     display: none; } }
+
+.imagen-footer {
+  display: flex;
+  display: block;
+  width: auto;
+  height: auto; }
 
 /*estilos de footer*/
 footer {
@@ -589,6 +635,12 @@ main {
     flex-direction: column;
     margin: auto; } }
 
+.imagen-footer {
+  display: flex;
+  display: block;
+  width: auto;
+  height: auto; }
+
 /* media queries tablet*/
 @media screen and (max-width: 990px) {
   header nav ul {
@@ -605,6 +657,12 @@ main {
     display: flex;
     flex-direction: column;
     margin: auto; } }
+
+.imagen-footer {
+  display: flex;
+  display: block;
+  width: auto;
+  height: auto; }
 
 /*estilos de footer*/
 footer .contacto__final {
