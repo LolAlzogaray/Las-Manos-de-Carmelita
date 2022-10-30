@@ -1,0 +1,15 @@
+/* hojas parciales */ 
+
+@import "utilities/variables";
+@import "utilities/mixin";
+@import "utilities/extend";
+@import "utilities/index";
+@import "utilities/historia";
+@import "utilities/catalogo";
+@import "utilities/preguntas";
+@import "utilities/contacto";
+
+/*reset*/ 
+*reset{
+    @extend %reseteo;
+}
