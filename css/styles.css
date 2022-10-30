@@ -88,6 +88,11 @@ footer {
   width: 100%;
   height: 100%; }
 
+.lmc {
+  align-items: center;
+  font-size: 18px;
+  font-family: 'Amatic SC', cursive; }
+
 /* media queries */
 @media screen and (max-width: 600px) {
   header nav ul {
@@ -103,11 +108,10 @@ footer {
           justify-content: center;
           margin: auto;
           padding: auto; }
-        header nav ul .navbar .buscador .imagen-footer {
-          display: flex;
-          display: block;
-          width: auto;
-          height: auto; } }
+        header nav ul .navbar .buscador .lmc {
+          align-items: center;
+          font-size: 18px;
+          font-family: 'Amatic SC', cursive; } }
 
 /* media queries tablet*/
 @media screen and (max-width: 990px) {
@@ -124,11 +128,10 @@ footer {
           justify-content: center;
           margin: auto;
           padding: auto; }
-        header nav ul .navbar .buscador .imagen-footer {
-          display: flex;
-          display: block;
-          width: auto;
-          height: auto; } }
+        header nav ul .navbar .buscador .lmc {
+          align-items: center;
+          font-size: 18px;
+          font-family: 'Amatic SC', cursive; } }
 
 /* estilo del body */
 body {
@@ -233,6 +236,11 @@ main div li {
   margin: auto;
   padding: 10px; }
 
+.lmc {
+  align-items: center;
+  font-size: 18px;
+  font-family: 'Amatic SC', cursive; }
+
 /* media queries tablet*/
 @media screen and (max-width: 990px) {
   header nav ul {
@@ -266,6 +274,11 @@ main div li {
   display: grid;
   margin: auto;
   padding: 10px; }
+
+.lmc {
+  align-items: center;
+  font-size: 18px;
+  font-family: 'Amatic SC', cursive; }
 
 /*estilos de footer*/
 footer .historia__final {
@@ -375,6 +388,11 @@ footer {
   display: block;
   display: fixed; }
 
+.lmc {
+  align-items: center;
+  font-size: 18px;
+  font-family: 'Amatic SC', cursive; }
+
 /* media queries mobile*/
 @media screen and (max-width: 600px) {
   header nav ul {
@@ -411,11 +429,10 @@ footer {
             flex-direction: column;
             align-items: right; } }
 
-.imagen-footer {
-  display: flex;
-  display: block;
-  width: auto;
-  height: auto; }
+.lmc {
+  align-items: center;
+  font-size: 18px;
+  font-family: 'Amatic SC', cursive; }
 
 @media screen and (max-width: 990px) {
   header nav ul {
@@ -452,11 +469,10 @@ footer {
             flex-direction: column;
             align-items: right; } }
 
-.imagen-footer {
-  display: flex;
-  display: block;
-  width: auto;
-  height: auto; }
+.lmc {
+  align-items: center;
+  font-size: 18px;
+  font-family: 'Amatic SC', cursive; }
 
 /* estilo del body */
 body {
@@ -511,6 +527,10 @@ section {
     section h3 .res1 {
       font-size: 20px;
       font-family: 'Montserrat', sans-serif; }
+  section .lmc {
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Amatic SC', cursive; }
   section .gif {
     margin: auto;
     margin-left: 300px;
@@ -544,11 +564,10 @@ section {
   .gif {
     display: none; } }
 
-.imagen-footer {
-  display: flex;
-  display: block;
-  width: auto;
-  height: auto; }
+.lmc {
+  align-items: center;
+  font-size: 18px;
+  font-family: 'Amatic SC', cursive; }
 
 /* media queries tablet*/
 @media screen and (max-width: 990px) {
@@ -564,11 +583,10 @@ section {
   .gif {
     display: none; } }
 
-.imagen-footer {
-  display: flex;
-  display: block;
-  width: auto;
-  height: auto; }
+.lmc {
+  align-items: center;
+  font-size: 18px;
+  font-family: 'Amatic SC', cursive; }
 
 /*estilos de footer*/
 footer {
@@ -633,7 +651,12 @@ main {
   padding-bottom: 1rem;
   text-align: center; }
 
-/* media queries */
+.lmc {
+  align-items: center;
+  font-size: 18px;
+  font-family: 'Amatic SC', cursive; }
+
+/* media queries mobile*/
 @media screen and (max-width: 600px) {
   header nav ul {
     transform: scale(0.9);
@@ -650,11 +673,10 @@ main {
     flex-direction: column;
     margin: auto; } }
 
-.imagen-footer {
-  display: flex;
-  display: block;
-  width: auto;
-  height: auto; }
+.lmc {
+  align-items: center;
+  font-size: 18px;
+  font-family: 'Amatic SC', cursive; }
 
 /* media queries tablet*/
 @media screen and (max-width: 990px) {
@@ -673,11 +695,10 @@ main {
     flex-direction: column;
     margin: auto; } }
 
-.imagen-footer {
-  display: flex;
-  display: block;
-  width: auto;
-  height: auto; }
+.lmc {
+  align-items: center;
+  font-size: 18px;
+  font-family: 'Amatic SC', cursive; }
 
 /*estilos de footer*/
 footer .contacto__final {

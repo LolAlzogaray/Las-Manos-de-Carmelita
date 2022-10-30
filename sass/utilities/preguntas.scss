@@ -67,7 +67,11 @@ section {
 
     }
 }
-
+.lmc{
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Amatic SC', cursive;
+ }
 .gif{
     margin: auto;
     margin-left: 300px;
@@ -122,12 +126,11 @@ section {
         
         }
 }
-.imagen-footer {
-    display: flex;
-    display: block;
-    width: auto;
-    height: auto;
-}
+.lmc{
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Amatic SC', cursive;
+ }
 /* media queries tablet*/
 
 @media screen and (max-width: 990px){
@@ -153,12 +156,11 @@ section {
            
            }
    }
-   .imagen-footer {
-    display: flex;
-    display: block;
-    width: auto;
-    height: auto;
-}
+   .lmc{
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Amatic SC', cursive;
+ }
 /*estilos de footer*/ 
 
 footer {
