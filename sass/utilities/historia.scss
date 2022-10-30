@@ -43,7 +43,7 @@ main{
     color: white;
     background-color: #eb4747;
     text-align: center;
-    font-family: 'Caveat', cursive;
+    font-family: 'Amatic SC', cursive;
     font-size: 30px;
     box-shadow: 2px 2px 2px white;
  }
@@ -52,7 +52,7 @@ main{
         flex-direction: column;
         color: #eb4747 ; 
         text-align: center;
-        font-family: 'Caveat', cursive;
+        font-family: 'Amatic SC', cursive;
         font-size: 25px;
         box-shadow: 2px 2px 2px white;
         margin: 1rem; }
@@ -76,7 +76,11 @@ main{
     padding: 10px;
     
 } 
-
+ .lmc{
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Amatic SC', cursive;
+ }
 /* media queries mobile*/
 
 @media screen and (max-width: 600px){ 
@@ -116,7 +120,12 @@ header nav ul{
         width: auto;
         height: auto;
     }
-
+    .publicaciones {
+        display: grid;
+        margin: auto;
+        padding: 10px;
+        
+    } 
 /* media queries tablet*/
 
 @media screen and (max-width: 990px){ 
@@ -156,7 +165,12 @@ header nav ul{
             width: auto;
             height: auto;
         }
-
+        .publicaciones {
+            display: grid;
+            margin: auto;
+            padding: 10px;
+            
+        } 
 /*estilos de footer*/ 
 
 footer{
